@@ -3,9 +3,9 @@
 about :
 
   name : 'wBoarding'
-  description : '___'
+  description : 'Explain how to start'
   version : '0.4.0'
-  enabled : 1
+  enabled : 0
   interpreters :
   - njs >= 8.0.0
   - chrome >= 60.0.0
@@ -13,6 +13,8 @@ about :
   keywords :
   - tools
   - wTools
+  - boarding
+  - start
   license : MIT
   author : 'Kostiantyn Wandalen <wanalen@willbe.so>'
   contributors :
@@ -92,4 +94,3 @@ build :
       # - build::npm
       - build::proto.export
       # - build::doc.export
-

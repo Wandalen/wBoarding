@@ -2,10 +2,10 @@
 {
   "name" : "wboarding",
   "version" : "0.3.0",
-  "description" : "___",
+  "description" : "Explain how to start",
   "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
   "license" : "MIT",
-  "main" : "proto/dwtools/amid/___",
+  "main" : "proto/dwtools/amid/boarding",
   "files" :
   [
     "proto/dwtools/amid",
