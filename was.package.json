@@ -3,17 +3,17 @@
   "name" : "wboarding",
   "version" : "0.3.0",
   "description" : "Explain how to start",
-  "author" : "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
   "license" : "MIT",
-  "main" : "proto/dwtools/amid/boarding",
+  "main" : "proto/wtools/amid/boarding",
   "files" :
   [
-    "proto/dwtools/amid",
-    "proto/dwtools/Tools.s"
+    "proto/wtools/amid",
+    "proto/node_modules/Tools"
   ],
   "scripts" :
   {
-    "test" : "wtest .run proto",
+    "test" : "wtest .run 'proto/**' rapidity:-3",
     "docgen" : "wdocgen .build proto"
   },
   "repository" :

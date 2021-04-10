@@ -41,7 +41,7 @@ path :
       content : prime
 
   entry.proto.no.tests :
-    path : proto/dwtools/amid/boarding
+    path : proto/wtools/amid/boarding
     criterion :
       tests : 'no.tests'
   entry.proto.only.tests :
@@ -50,7 +50,7 @@ path :
       tests : 'only.tests'
 
   entry.out.raw.debug :
-    path : '{path::out.*=1}/source/dwtools/amid/boarding'
+    path : '{path::out.*=1}/source/wtools/amid/boarding'
     criterion :
       debug : [ debug, release ]
       raw : raw

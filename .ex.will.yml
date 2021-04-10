@@ -7,7 +7,7 @@ about :
   version : '0.4.0'
   enabled : 0
   interpreters :
-  - njs >= 8.0.0
+  - njs >= 10.0.0
   - chrome >= 60.0.0
   - firefox >= 60.0.0
   keywords :
@@ -16,9 +16,9 @@ about :
   - boarding
   - start
   license : MIT
-  author : 'Kostiantyn Wandalen <wanalen@willbe.so>'
+  author : 'Kostiantyn Wandalen <wanalen@01.school>'
   contributors :
-  - 'Kostiantyn Wandalen <wanalen@willbe.so>'
+  - 'Kostiantyn Wandalen <wanalen@01.school>'
   npm.name : 'wboarding'
   npm.scripts :
     test : 'wtest .run proto/**'
